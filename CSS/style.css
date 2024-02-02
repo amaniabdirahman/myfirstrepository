@@ -26,9 +26,7 @@ body {
     font-size: 24px;
   }
 
-  h1,h2{
-    color: #efeee7;
-  }
+ 
   
   .container {
     width: 1024px;
@@ -54,7 +52,7 @@ body {
   }
   
   
-  #studentbio {color: red}
+  #studentbio {color: #efeee7;}
 
   
 
