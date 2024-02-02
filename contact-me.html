@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- 958ac5df-55ee-4b41-846f-9dd3e5e5d56e -->
+        <input type="hidden" name="access_key" value="958ac5df-55ee-4b41-846f-9dd3e5e5d56e">
+        <label>
+            Name:
+            <input type="text" name="f_name" required/>
+        </label>
+        <label>
+            Email:
+            <input type="email" name="email" required/>
+        </label>
+        <label>
+            Message:
+            <textarea name="message" required></textarea>
+        </label>
+        <div class="h-captcha" data-captcha="true"></div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
