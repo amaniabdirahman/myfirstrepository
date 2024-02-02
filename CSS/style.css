@@ -8,9 +8,11 @@ body {
   
   header {margin-top: 0px;
     background-color: #333333;
+    padding-block: 19.2px;
   }
   
   h1 {text-align: center;
+    margin-top: 0;
     font-size: 28px;
   }
   
